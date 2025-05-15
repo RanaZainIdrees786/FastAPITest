@@ -9,7 +9,6 @@ app = FastAPI()
 client = Groq(
     api_key="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",
 )
-
 # Enable frontend connections (CORS)
 app.add_middleware(
     CORSMiddleware,

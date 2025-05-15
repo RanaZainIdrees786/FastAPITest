@@ -1,0 +1,105 @@
+Date: 13/5/2025
+Time: 12:25
+Phone Number: +923134549651
+Message: Hello! This is a text from Hala's Code
+--------------------
+Date: 13/5/2025
+Time: 12:29
+Phone Number: +923134549651
+Message: Hello! This is a text from Hala's Code
+--------------------
+Date: 13/5/2025
+Time: 12:35
+Phone Number: +923134549651
+Message: Hello from Hala's Code
+--------------------
+Date: 13/5/2025
+Time: 12:37
+Phone Number: +923134549651
+Message: Hello from Hala's Code
+--------------------
+Date: 13/5/2025
+Time: 12:39
+Phone Number: +923134549651
+Message: Hello from Hala's Code
+--------------------
+Date: 13/5/2025
+Time: 12:43
+Phone Number: +923134549651
+Message: Hello from Hala's Code
+--------------------
+Date: 13/5/2025
+Time: 12:47
+Phone Number: +923134549651
+Message: Hello from Hala's Code
+--------------------
+Date: 13/5/2025
+Time: 12:48
+Phone Number: +923134549651
+Message: Hello from Hala's Code
+--------------------
+Date: 13/5/2025
+Time: 12:49
+Phone Number: +923134549651
+Message: Hello from Hala's Code
+--------------------
+Date: 13/5/2025
+Time: 12:50
+Phone Number: +923134549651
+Message: Hello from Hala's Code
+--------------------
+Date: 13/5/2025
+Time: 12:50
+Phone Number: +923134549651
+Message: Hello from Hala's Code
+--------------------
+Date: 13/5/2025
+Time: 12:51
+Phone Number: +923134549651
+Message: Hello from Hala's Code
+--------------------
+Date: 13/5/2025
+Time: 12:51
+Phone Number: +923134549651
+Message: Hello from Hala's Code
+--------------------
+Date: 13/5/2025
+Time: 12:53
+Phone Number: +923134549651
+Message: Hello from Hala's Code
+--------------------
+Date: 13/5/2025
+Time: 12:54
+Phone Number: +923134549651
+Message: Hello from Hala's Code 939393
+--------------------
+Date: 13/5/2025
+Time: 13:17
+Phone Number: +92134549651
+Message: Welcome Zain to AKTI! You have enrolled yourself in Amazon and your batch is 13. Please come on 9 am.Tomorrow we will send you your nearest location on watsapp!
+--------------------
+Date: 13/5/2025
+Time: 13:20
+Phone Number: +923134549651
+Message: Welcome Rana Zain Iderees to AKTI! You have enrolled yourself in web and your batch is 13. Please come on 3:00 am.Tomorrow we will send you your nearest location on watsapp!
+--------------------
+Date: 13/5/2025
+Time: 13:28
+Phone Number: +923134549651
+Message: Welcome HALA kabir .m to AKTI! You have enrolled yourself in web and your batch is 11. Please come on 4:00 am.Tomorrow we will send you your nearest location on watsapp!
+--------------------
+Date: 14/5/2025
+Time: 15:16
+Phone Number: +923134549651
+Message: Welcome Hala to AKTI! You have enrolled yourself in Ai and your batch is 13. Please come on 4:00pm.Tomorrow we will send you your nearest location on watsapp!
+--------------------
+Date: 15/5/2025
+Time: 12:42
+Phone Number: +923134549651
+Message: Welcome zain to AKTI! You have enrolled yourself in Generative AI and your batch is 11. Please come on 7.Tomorrow we will send you your nearest location on watsapp!
+--------------------
+Date: 15/5/2025
+Time: 14:12
+Phone Number: +923134549651
+Message: Welcome hala to AKTI! You have enrolled yourself in web and your batch is 11. Please come on <module 'time' (built-in)>.Tomorrow we will send you your nearest location on watsapp!
+--------------------

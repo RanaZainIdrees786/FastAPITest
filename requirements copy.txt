@@ -1,0 +1,11 @@
+openpyxl
+groq
+pywhatkit
+pandas
+numpy
+SpeechRecognition
+pyautogui
+pyttsx3
+PyMuPDF
+fastapi[standard]
+uvicorn
