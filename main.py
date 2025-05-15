@@ -19,6 +19,11 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+
+@app.get("/")
+def hello_world():
+    return "hello world hala"
+
 # Simple chatbot logic using query parameter ?q=hello
 @app.get("/chat")
 def simple_chatbot(q: str):
