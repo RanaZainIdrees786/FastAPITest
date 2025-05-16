@@ -5,7 +5,7 @@
   // === STYLES ===
   const style = document.createElement("style");
   style.innerHTML = `
-      #chat-icon {
+    #chat-icon {
         position: fixed;
         bottom: 20px;
         right: 20px;
@@ -19,9 +19,9 @@
         line-height: 60px;
         cursor: pointer;
         z-index: 9999;
-      }
+    }
   
-      #chat-window {
+    #chat-window {
         position: fixed;
         top: 0;
         left: 0;
@@ -33,24 +33,24 @@
         flex-direction: column;
         font-family: sans-serif;
         background-color: #212121;
-      }
+    }
   
-      #chat-header {
+    #chat-header {
         // background: #007bff;
         color: white;
         padding: 10px;
         font-size: 18px;
-      }
+    }
   
-      #chat-messages {
+    #chat-messages {
         flex: 1;
         padding: 10px;
         overflow-y: auto;
-      }
+    }
 
     .chat-msg.user-msg{
         margin: 30px;
-        }
+    }
         
     .chat-msg.user-msg, .chat-msg.bot-msg{
         text-align: left;
@@ -58,7 +58,7 @@
         color: white;
         padding: 10px;
         border-radius: 8px;
-        }
+    }
         
     .chat-msg {
         margin: 5px 0;
@@ -68,39 +68,43 @@
         margin: 30px;
     }
   
-      .user-msg {
+    .user-msg {
         text-align: right;
-        }
+    }
         
-        .bot-msg {
-            text-align: left;
+    .bot-msg {
+        text-align: left;
+    }
             
-            }
-            
-            #chat-input {
-                display: flex;
-                border-top: 1px solid #ccc;
-                }
-      #chat-input::placeholder{
+    #chat-input {
+        display: flex;
+        border-top: 1px solid #ccc;
+        outline: none;
+        padding: 8px;
+    }
+
+    #chat-input #chat-text:focus{
+        outline:none;    
+    }
+    
+    #chat-input::placeholder{
         color: #303030;
-      }
-  
-      #chat-input input {
+    }
+
+    #chat-input input {
         flex: 1;
         padding: 10px;
         border: none;
         font-size: 16px;
-      }
+    }
   
-      #chat-input button {
+    #chat-input button {
         padding: 10px;
         background: #007bff;
-
-
         color: white;
         border: none;
         cursor: pointer;
-      }
+    }
     `;
   document.head.appendChild(style);
 
