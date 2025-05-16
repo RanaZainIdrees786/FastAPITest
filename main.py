@@ -31,12 +31,23 @@ def simple_chatbot(q: str):
     akti_info = read_pdf_data('data/Arfa Karim Technology Incubator.pdf')
     courses_info = read_excel_data('data/Courses.xlsx')
     prompt_template = f"""
+    
             Rules:
             1. The provided answer should not contain more than two lines
             2. If someone asks you about course dont disclose information about teacher
             3. Answers should only include what has been asked
-            4. provide answers not more than two line?
+            4. provide answers not more than five line?
             5. provide answers only from the given context.
+            6. If users ask a query out of context provide him contact info 
+            
+            Contact Info:
+            +92 321 1119 651
+            +92 321 1119 652
+            +92 423 5972 095
+            Office # 09, 9th Floor
+            Arfa Software Technology Park
+            346-B Ferozepur Road
+            Lahore, Punjab, Pakistan.
 
             Context:
                 Courses: 

@@ -32,10 +32,11 @@
         display: none;
         flex-direction: column;
         font-family: sans-serif;
+        background-color: #212121;
       }
   
       #chat-header {
-        background: #007bff;
+        // background: #007bff;
         color: white;
         padding: 10px;
         font-size: 18px;
@@ -47,28 +48,41 @@
         overflow-y: auto;
       }
 
-    .chat-msg, .user-msg{
-    border: 1px solid red;
-    margin: 30px;
-    }
-  
-      .chat-msg {
+    .chat-msg.user-msg{
+        margin: 30px;
+        }
+        
+    .chat-msg.user-msg, .chat-msg.bot-msg{
+        text-align: left;
+        background-color: #303030;
+        color: white;
+        padding: 10px;
+        border-radius: 8px;
+        }
+        
+    .chat-msg {
         margin: 5px 0;
-      }
+    }
+
+    .chat-msg.bot-msg{
+        margin: 30px;
+    }
   
       .user-msg {
         text-align: right;
-        color: blue;
-      }
-  
-      .bot-msg {
-        text-align: left;
-        color: green;
-      }
-  
-      #chat-input {
-        display: flex;
-        border-top: 1px solid #ccc;
+        }
+        
+        .bot-msg {
+            text-align: left;
+            
+            }
+            
+            #chat-input {
+                display: flex;
+                border-top: 1px solid #ccc;
+                }
+      #chat-input::placeholder{
+        color: #303030;
       }
   
       #chat-input input {
@@ -81,6 +95,8 @@
       #chat-input button {
         padding: 10px;
         background: #007bff;
+
+
         color: white;
         border: none;
         cursor: pointer;
@@ -101,7 +117,7 @@
       <div id="chat-header">ChatBot <span style="float:right;cursor:pointer;" id="chat-close">✖</span></div>
       <div id="chat-messages"></div>
       <div id="chat-input">
-        <input type="text" id="chat-text" placeholder="Type your message..." />
+        <input type="text" id="chat-text" placeholder="What you want to know about AKTI..." />
         <button id="chat-send">Send</button>
       </div>
     `;
