@@ -9,3 +9,10 @@ pyttsx3
 PyMuPDF
 fastapi[standard]
 uvicorn
+faiss-cpu
+sentence-transformers
+weaviate-client
+chromadb
+PyPDF2
+
+

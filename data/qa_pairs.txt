@@ -1,0 +1,8 @@
+Q: What is your refund policy?
+A: You can return products within 30 days if unused and in original packaging.
+
+Q: How does ACME handle user data?
+A: ACME complies with GDPR and encrypts all customer data.
+
+Q: What tools does ACME use for communication?
+A: Slack and Microsoft Teams are used for internal communication.

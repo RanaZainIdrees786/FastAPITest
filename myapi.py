@@ -9,15 +9,17 @@ import time
 from whatsappSend import send_measage
 from readData import read_excel_data
 from readData import read_pdf_data
+from chroma import chroma_client
+
 
 client = Groq(
-    api_key="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",
+    api_key=os.environ.get('GROQ_API_KEY'),
 )
 
 # initialiezed text to speech engine
 engine = pyttsx3.init()
-voices = engine.getProperty('voices')
-engine.setProperty('voice', voices[37].id)
+# voices = engine.getProperty('voices')
+# engine.setProperty('voice', voices[37].id)
 
 
 def recognize_speech():
@@ -46,6 +48,7 @@ while IsContinue:
     #     continue
     # engine.say(user_question)
     # engine.runAndWait()
+    chunks = chroma_client('data/Arfa Karim Technology Incubator.pdf')
     akti_info = read_pdf_data('data/Arfa Karim Technology Incubator.pdf')
     courses_info = read_excel_data('data/Courses.xlsx')
     user_question = input("Ask a question about AKTI or type exit: ")
@@ -58,7 +61,6 @@ while IsContinue:
             3. Answers should only include what has been asked
             4. provide answers not more than two line?
             5. provide answers only from the given context.
-
 
             Context:
 
